@@ -17,6 +17,7 @@ const mapOptions = {
     "mapId": process.env.REACT_APP_MAPID
 }
 
+
 async function initMap() {
     const mapDiv = document.getElementById('map');
     const apiLoader = new Loader(apiOptions);
